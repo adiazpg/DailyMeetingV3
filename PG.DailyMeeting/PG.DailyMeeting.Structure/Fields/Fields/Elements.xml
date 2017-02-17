@@ -16,4 +16,10 @@
        Required="FALSE"
        Group="Custom Site Columns">
   </Field>-->
+
+
+
+  <Field ID="{E2E37C8D-CAE3-40C3-B5F5-12CE2F380A51}" Name="Ariel" Type="Text"></Field>
+  <Field ID="{0210A810-78EC-4F7B-B489-75A3E8282308}" Name="Awanta" Type="Text"></Field>
+
 </Elements>
