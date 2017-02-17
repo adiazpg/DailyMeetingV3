@@ -1,0 +1,111 @@
+.panel {
+    height: 800px;
+    width: 100%;
+    height: 600px;
+
+}
+
+
+.draggableDiv{
+	width: 80px;
+	height: 70px;
+	background-color: red;
+}
+
+.task-container{
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	padding:5px;
+
+}
+
+.task-container-main{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	
+}
+
+
+.task-container-main h5{
+	background-color: #008B8B;
+	color:white;
+	text-align: center;
+	border-radius: 5px;
+
+
+
+}
+
+
+
+
+
+
+
+.task-container-main {
+
+
+
+}
+
+.left-arrowSpan{
+
+
+}
+
+.right-arrowSpan{
+
+
+}
+
+
+.left-arrow{
+
+}
+
+.right-arrow{
+
+
+}
+
+
+
+
+
+
+.panel-heading {
+
+
+}
+
+.pgNuevo {}
+
+
+
+.contenidoPrincipal{
+
+
+
+}
+
+.containerUsuarios {
+
+
+}
+
+.containerStatus {
+	
+
+}
+
+.footerDaily {
+
+
+}
+
+
+.app-modal-window .modal-dialog{
+
+
+}
