@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package dslVersion="1.0.0.0" 
-        Id="7b746537-8d0d-4b8c-9148-0b2974c51f70" 
-        solutionId="7b746537-8d0d-4b8c-9148-0b2974c51f70" 
-        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
-        name="PG.DailyMeeting.Structure"
-        sharePointProductVersion="15.0">
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="7b746537-8d0d-4b8c-9148-0b2974c51f70" solutionId="7b746537-8d0d-4b8c-9148-0b2974c51f70" resetWebServer="false" sharePointProductVersion="15.0" name="PG.DailyMeeting.Structure" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="1cf1ece5-a42e-41d4-8bc1-783cca6ed20c" />
+  </features>
 </package>

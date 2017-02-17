@@ -53,6 +53,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ContentTypes\ContentTypes\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d3cbf260-e339-4962-84ae-eb72b5c3709f}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{1cf1ece5-a42e-41d4-8bc1-783cca6ed20c}</FeatureId>
+    </None>
+    <None Include="Fields\Fields\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e835cf4b-1344-4c9d-aa2c-6860d1f09292}</SharePointProjectItemId>
+    </None>
     <None Include="key.snk" />
     <None Include="Package\Package.package">
       <PackageId>{7b746537-8d0d-4b8c-9148-0b2974c51f70}</PackageId>
@@ -62,10 +71,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ContentTypes\" />
-    <Folder Include="Features\" />
-    <Folder Include="Fields\" />
     <Folder Include="Lists\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ContentTypes\ContentTypes\Elements.xml" />
+    <Content Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Content>
+    <Content Include="Fields\Fields\Elements.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
