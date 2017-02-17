@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="a257df87-827b-4369-85bf-75fd91db77d2" 
+        solutionId="a257df87-827b-4369-85bf-75fd91db77d2" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="PG.DailyMeeting.Addin"
+        sharePointProductVersion="15.0">
+  <features>
+        <featureReference itemId="23b32277-1f82-4515-a551-e3e9e43d8c70" />
+  </features>
+</package>

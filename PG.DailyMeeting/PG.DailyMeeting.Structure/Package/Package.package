@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="7b746537-8d0d-4b8c-9148-0b2974c51f70" 
+        solutionId="7b746537-8d0d-4b8c-9148-0b2974c51f70" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="PG.DailyMeeting.Structure"
+        sharePointProductVersion="15.0">
+</package>
