@@ -104,6 +104,7 @@
   <ItemGroup>
     <Folder Include="App\Controllers\" />
     <Folder Include="App\Directives\" />
+    <Folder Include="App\Partials\" />
     <Folder Include="App\Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
