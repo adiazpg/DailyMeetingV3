@@ -103,6 +103,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App\Controllers\" />
+    <Folder Include="App\Directives\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
