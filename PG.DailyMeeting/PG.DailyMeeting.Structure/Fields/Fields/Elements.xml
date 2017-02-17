@@ -8,4 +8,12 @@
        Required="FALSE"
        Group="Custom Site Columns">
   </Field>-->
+  <!--<Field
+       ID="{32f5da19-ec83-45f1-8eb8-a356143f9ec2}"
+       Name="Fields"
+       DisplayName="Fields"
+       Type="Text"
+       Required="FALSE"
+       Group="Custom Site Columns">
+  </Field>-->
 </Elements>
