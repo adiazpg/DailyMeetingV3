@@ -1,0 +1,13 @@
+{
+  "name": "Ariel",
+  "description": "Proyecto Daily Meeting",
+  "main": "",
+  "authors": [
+    "Ariel"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

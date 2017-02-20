@@ -1,0 +1,31 @@
+ 
+
+
+
+
+ <div class="row task-container" ng-repeat="item in itemsNew">
+          
+                     <div class="task-container-main col-md-8">
+                        <h5><span class="glyphicon glyphicon-tasks left-arrowSpan"> </span> {{item.name}}</h5>
+                     </div>
+                     <div class="right-arrow col-md-2">
+                        <span class="glyphicon glyphicon-chevron-right right-arrowSpan" ng-click="moveRight(item)"> </span>
+                     </div>
+                 
+               </div>
+            <div class="panel-footer">Asignado a: {{item.assignedToDisplayName}}</div>
+
+
+            
+            
+   <div class="panel panel-default">
+      <div class="panel-heading"> <h5><span class="glyphicon glyphicon-tasks left-arrowSpan"> </span> {{item.name}}</h5> </div>
+
+      <div class="panel-body">
+         Editar document blabla, implementacion en blabla
+         
+      <span class="glyphicon glyphicon-pencil" ng-click="update(item)">
+      </div>
+
+      <div class="panel-footer"> Asignado a: {{item.assignedToDisplayName}}</div>
+    </div>
